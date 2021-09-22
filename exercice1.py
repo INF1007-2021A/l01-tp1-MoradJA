@@ -4,12 +4,12 @@ def fizzBuzz(n):
 
 
     def fizzBuzz(n):
-        if n % 3 == 0:
-            return print('fizz')
-        if n % 5 == 0:
-            return print('Buzz')
         if n % 3 == 0 and n % 5 == 0:
             return print('fizzBuzz')
+        elif n % 3 == 0:
+            return print('fizz')
+        elif n % 5 == 0:
+            return print('Buzz')
         else:
             print(n)
 

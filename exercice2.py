@@ -38,10 +38,10 @@ def resoudreEquation(a, b, c):
         # TODO: afficher sur l'écran "Deux racines"
 
         # TODO: calculer la prmiere racine, assigner la a "x1"
-        x1 = (-b-math.sqrt(delta))/2*a
+        x1 = (-b+math.sqrt(delta))/2*a
 
         # TODO: calculer la deuxieme racine, assigner la a "x2"
-        x2 = (-b+math.sqrt(delta))/2*a
+        x2 = (-b-math.sqrt(delta))/2*a
 
         # ne pas modifier cette ligne
         return x1, x2
